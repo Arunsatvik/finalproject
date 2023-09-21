@@ -1,0 +1,5 @@
+<!doctype html><html><head> <title>BGL--RC01</title></style></head><body>Version cisco_ios
+
+Show proc cpu | ex 0.0
+[{'cpu_5_sec': '24', 'cpu_1_min': '5', 'cpu_5_min': '3', 'interrupts': '100'}]
+

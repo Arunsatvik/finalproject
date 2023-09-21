@@ -1,0 +1,55 @@
+<!doctype html><html><head> <title>BGL--RC01</title></style></head><body>Version cisco_ios
+
+Show proc cpu | ex 0.0
+[{'cpu_5_sec': '20', 'cpu_1_min': '2', 'cpu_5_min': '1', 'interrupts': '74'}]
+
+Show proc mem | inc totals
+Processor Pool Total:  156034848 Used:   20105328 Free:  135929520
+      I/O Pool Total:   12582912 Used:    4124704 Free:    8458208
+                                 24222112 Total
+
+show log | i err|drop|fail|Fail|crash|MALLOCFAIL|down
+Current Day: Mar 11:                 0 flushes, 0 overruns, xml disabled, filtering disabled)
+2: ESM: 0 messages dropped
+
+{}
+
+Show interface FastEthernet0/0 
+[{'interface': 'FastEthernet0/0', 'link_status': 'up', 'protocol_status': 'up', 'hardware_type': 'Gt96k FE', 'address': 'c201.199d.0000', 'bia': 'c201.199d.0000', 'description': '', 'ip_address': '192.168.1.111/24', 'mtu': '1500', 'duplex': 'Half-duplex', 'speed': '10Mb/s', 'media_type': '', 'bandwidth': '10000 Kbit', 'delay': '1000 usec', 'encapsulation': 'ARPA', 'last_input': '00:00:00', 'last_output': '00:00:00', 'last_output_hang': 'never', 'queue_strategy': 'fifo', 'input_rate': '2000', 'output_rate': '2000', 'input_pps': '2', 'output_pps': '3', 'input_packets': '', 'output_packets': '4153', 'runts': '', 'giants': '', 'input_errors': '0', 'crc': '0', 'frame': '0', 'overrun': '0', 'abort': '', 'output_errors': '0', 'vlan_id': '', 'vlan_id_inner': '', 'vlan_id_outer': ''}]
+
+Show interface FastEthernet0/0 
+[{'interface': 'FastEthernet0/0', 'link_status': 'up', 'protocol_status': 'up', 'hardware_type': 'Gt96k FE', 'address': 'c201.199d.0000', 'bia': 'c201.199d.0000', 'description': '', 'ip_address': '192.168.1.111/24', 'mtu': '1500', 'duplex': 'Half-duplex', 'speed': '10Mb/s', 'media_type': '', 'bandwidth': '10000 Kbit', 'delay': '1000 usec', 'encapsulation': 'ARPA', 'last_input': '00:00:00', 'last_output': '00:00:00', 'last_output_hang': 'never', 'queue_strategy': 'fifo', 'input_rate': '2000', 'output_rate': '2000', 'input_pps': '2', 'output_pps': '3', 'input_packets': '', 'output_packets': '4187', 'runts': '', 'giants': '', 'input_errors': '0', 'crc': '0', 'frame': '0', 'overrun': '0', 'abort': '', 'output_errors': '0', 'vlan_id': '', 'vlan_id_inner': '', 'vlan_id_outer': ''}]
+
+Show interface FastEthernet0/0 
+[{'interface': 'FastEthernet0/0', 'link_status': 'up', 'protocol_status': 'up', 'hardware_type': 'Gt96k FE', 'address': 'c201.199d.0000', 'bia': 'c201.199d.0000', 'description': '', 'ip_address': '192.168.1.111/24', 'mtu': '1500', 'duplex': 'Half-duplex', 'speed': '10Mb/s', 'media_type': '', 'bandwidth': '10000 Kbit', 'delay': '1000 usec', 'encapsulation': 'ARPA', 'last_input': '00:00:00', 'last_output': '00:00:00', 'last_output_hang': 'never', 'queue_strategy': 'fifo', 'input_rate': '3000', 'output_rate': '3000', 'input_pps': '3', 'output_pps': '4', 'input_packets': '', 'output_packets': '4224', 'runts': '', 'giants': '', 'input_errors': '0', 'crc': '0', 'frame': '0', 'overrun': '0', 'abort': '', 'output_errors': '0', 'vlan_id': '', 'vlan_id_inner': '', 'vlan_id_outer': ''}]
+
+Show spanning-tree active
+
+No spanning tree instances exist.
+
+
+Show int counters error | ex 0
+
+
+Show int counters error | ex 0
+
+
+Show int counters error | ex 0
+
+
+Show ip protocols | i bgp: 
+
+
+Show ip protocols | i eigrp 
+Routing Protocol is "eigrp 10"
+  Redistributing: eigrp 10
+
+Show ip eigrp neigh 
+IP-EIGRP neighbors for process 10
+
+Show ip eigrp neigh 
+IP-EIGRP neighbors for process 10
+
+Show ip eigrp neigh 
+IP-EIGRP neighbors for process 10
+

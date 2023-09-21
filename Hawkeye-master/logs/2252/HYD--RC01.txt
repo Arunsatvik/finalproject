@@ -1,0 +1,82 @@
+<!doctype html><html><head> <title>HYD--RC01</title></style></head><body>Version cisco_ios
+
+Show proc cpu | ex 0.0
+[{'cpu_5_sec': '26', 'cpu_1_min': '4', 'cpu_5_min': '2', 'interrupts': '0'}]
+
+Show proc mem | inc totals
+Processor Pool Total:  156034848 Used:   20059840 Free:  135975008
+      I/O Pool Total:   12582912 Used:    4124704 Free:    8458208
+                                 24177056 Total
+
+show log | i err|drop|fail|Fail|crash|MALLOCFAIL|down
+Current Day: Mar 11:                 0 flushes, 0 overruns, xml disabled, filtering disabled)
+2: ESM: 0 messages dropped
+
+{}
+
+Show interface FastEthernet0/0 
+[{'interface': 'FastEthernet0/0', 'link_status': 'up', 'protocol_status': 'up', 'hardware_type': 'Gt96k FE', 'address': 'c201.0824.0000', 'bia': 'c201.0824.0000', 'description': '', 'ip_address': '192.168.48.130/24', 'mtu': '1500', 'duplex': 'Half-duplex', 'speed': '10Mb/s', 'media_type': '', 'bandwidth': '10000 Kbit', 'delay': '1000 usec', 'encapsulation': 'ARPA', 'last_input': '00:00:00', 'last_output': '00:00:00', 'last_output_hang': 'never', 'queue_strategy': 'fifo', 'input_rate': '3000', 'output_rate': '3000', 'input_pps': '4', 'output_pps': '4', 'input_packets': '', 'output_packets': '2619', 'runts': '', 'giants': '', 'input_errors': '0', 'crc': '0', 'frame': '0', 'overrun': '0', 'abort': '', 'output_errors': '0', 'vlan_id': '', 'vlan_id_inner': '', 'vlan_id_outer': ''}]
+
+Show interface FastEthernet0/0 
+[{'interface': 'FastEthernet0/0', 'link_status': 'up', 'protocol_status': 'up', 'hardware_type': 'Gt96k FE', 'address': 'c201.0824.0000', 'bia': 'c201.0824.0000', 'description': '', 'ip_address': '192.168.48.130/24', 'mtu': '1500', 'duplex': 'Half-duplex', 'speed': '10Mb/s', 'media_type': '', 'bandwidth': '10000 Kbit', 'delay': '1000 usec', 'encapsulation': 'ARPA', 'last_input': '00:00:00', 'last_output': '00:00:00', 'last_output_hang': 'never', 'queue_strategy': 'fifo', 'input_rate': '4000', 'output_rate': '5000', 'input_pps': '5', 'output_pps': '6', 'input_packets': '', 'output_packets': '2691', 'runts': '', 'giants': '', 'input_errors': '0', 'crc': '0', 'frame': '0', 'overrun': '0', 'abort': '', 'output_errors': '0', 'vlan_id': '', 'vlan_id_inner': '', 'vlan_id_outer': ''}]
+
+Show interface FastEthernet0/0 
+[{'interface': 'FastEthernet0/0', 'link_status': 'up', 'protocol_status': 'up', 'hardware_type': 'Gt96k FE', 'address': 'c201.0824.0000', 'bia': 'c201.0824.0000', 'description': '', 'ip_address': '192.168.48.130/24', 'mtu': '1500', 'duplex': 'Half-duplex', 'speed': '10Mb/s', 'media_type': '', 'bandwidth': '10000 Kbit', 'delay': '1000 usec', 'encapsulation': 'ARPA', 'last_input': '00:00:00', 'last_output': '00:00:00', 'last_output_hang': 'never', 'queue_strategy': 'fifo', 'input_rate': '4000', 'output_rate': '5000', 'input_pps': '5', 'output_pps': '6', 'input_packets': '', 'output_packets': '2762', 'runts': '', 'giants': '', 'input_errors': '0', 'crc': '0', 'frame': '0', 'overrun': '0', 'abort': '', 'output_errors': '0', 'vlan_id': '', 'vlan_id_inner': '', 'vlan_id_outer': ''}]
+
+Show interface FastEthernet0/1 
+[{'interface': 'FastEthernet0/1', 'link_status': 'up', 'protocol_status': 'up', 'hardware_type': 'Gt96k FE', 'address': 'c201.0824.0001', 'bia': 'c201.0824.0001', 'description': '', 'ip_address': '192.168.2.12/24', 'mtu': '1500', 'duplex': 'Half-duplex', 'speed': '10Mb/s', 'media_type': '', 'bandwidth': '10000 Kbit', 'delay': '1000 usec', 'encapsulation': 'ARPA', 'last_input': '00:00:00', 'last_output': '00:00:00', 'last_output_hang': 'never', 'queue_strategy': 'fifo', 'input_rate': '2000', 'output_rate': '3000', 'input_pps': '3', 'output_pps': '3', 'input_packets': '', 'output_packets': '881', 'runts': '', 'giants': '', 'input_errors': '0', 'crc': '0', 'frame': '0', 'overrun': '0', 'abort': '', 'output_errors': '0', 'vlan_id': '', 'vlan_id_inner': '', 'vlan_id_outer': ''}]
+
+Show interface FastEthernet0/1 
+[{'interface': 'FastEthernet0/1', 'link_status': 'up', 'protocol_status': 'up', 'hardware_type': 'Gt96k FE', 'address': 'c201.0824.0001', 'bia': 'c201.0824.0001', 'description': '', 'ip_address': '192.168.2.12/24', 'mtu': '1500', 'duplex': 'Half-duplex', 'speed': '10Mb/s', 'media_type': '', 'bandwidth': '10000 Kbit', 'delay': '1000 usec', 'encapsulation': 'ARPA', 'last_input': '00:00:01', 'last_output': '00:00:00', 'last_output_hang': 'never', 'queue_strategy': 'fifo', 'input_rate': '3000', 'output_rate': '4000', 'input_pps': '4', 'output_pps': '4', 'input_packets': '', 'output_packets': '897', 'runts': '', 'giants': '', 'input_errors': '0', 'crc': '0', 'frame': '0', 'overrun': '0', 'abort': '', 'output_errors': '0', 'vlan_id': '', 'vlan_id_inner': '', 'vlan_id_outer': ''}]
+
+Show interface FastEthernet0/1 
+[{'interface': 'FastEthernet0/1', 'link_status': 'up', 'protocol_status': 'up', 'hardware_type': 'Gt96k FE', 'address': 'c201.0824.0001', 'bia': 'c201.0824.0001', 'description': '', 'ip_address': '192.168.2.12/24', 'mtu': '1500', 'duplex': 'Half-duplex', 'speed': '10Mb/s', 'media_type': '', 'bandwidth': '10000 Kbit', 'delay': '1000 usec', 'encapsulation': 'ARPA', 'last_input': '00:00:03', 'last_output': '00:00:00', 'last_output_hang': 'never', 'queue_strategy': 'fifo', 'input_rate': '3000', 'output_rate': '4000', 'input_pps': '4', 'output_pps': '4', 'input_packets': '', 'output_packets': '909', 'runts': '', 'giants': '', 'input_errors': '0', 'crc': '0', 'frame': '0', 'overrun': '0', 'abort': '', 'output_errors': '0', 'vlan_id': '', 'vlan_id_inner': '', 'vlan_id_outer': ''}]
+
+Show spanning-tree active
+
+No spanning tree instances exist.
+
+
+Show int counters error | ex 0
+
+
+Show int counters error | ex 0
+
+
+Show int counters error | ex 0
+
+
+Show int counters error | ex 0
+
+
+Show int counters error | ex 0
+
+
+Show int counters error | ex 0
+
+
+Show ip protocols | i bgp: 
+
+
+Show ip protocols | i eigrp 
+Routing Protocol is "eigrp 10"
+  Redistributing: eigrp 10
+
+Show ip eigrp neigh 
+IP-EIGRP neighbors for process 10
+H   Address                 Interface       Hold Uptime   SRTT   RTO  Q  Seq
+                                            (sec)         (ms)       Cnt Num
+0   192.168.2.21            Fa0/1             11 00:29:49  101   606  0  7
+
+Show ip eigrp neigh 
+IP-EIGRP neighbors for process 10
+H   Address                 Interface       Hold Uptime   SRTT   RTO  Q  Seq
+                                            (sec)         (ms)       Cnt Num
+0   192.168.2.21            Fa0/1             10 00:29:51  101   606  0  7
+
+Show ip eigrp neigh 
+IP-EIGRP neighbors for process 10
+H   Address                 Interface       Hold Uptime   SRTT   RTO  Q  Seq
+                                            (sec)         (ms)       Cnt Num
+0   192.168.2.21            Fa0/1             14 00:29:52  101   606  0  7
+
